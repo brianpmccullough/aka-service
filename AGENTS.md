@@ -53,6 +53,15 @@ npm run start:dev
 If a command is not available yet, add it as part of the project foundation
 increment instead of silently skipping it.
 
+When dependency changes are made, also run:
+
+```sh
+npm audit --omit=dev
+```
+
+Document any remaining full-audit findings that are intentionally left in place,
+especially when they are dev-only or would require breaking changes.
+
 ## Change Discipline
 
 - Read existing plans and nearby code before changing behavior.

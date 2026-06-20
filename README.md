@@ -16,6 +16,36 @@ behavior.
 - Feature plan template: [docs/plans/feature.md](docs/plans/feature.md)
 - Current first increment: [docs/plans/0001-project-foundation.md](docs/plans/0001-project-foundation.md)
 
+## Local Development
+
+Use Node.js 22:
+
+```sh
+nvm use
+```
+
+Install dependencies:
+
+```sh
+npm install
+```
+
+Run the service locally:
+
+```sh
+npm run start:dev
+```
+
+Verify changes:
+
+```sh
+npm run lint
+npm run format:check
+npm test
+npm run test:e2e
+npm run build
+```
+
 ## Contributor Guidance
 
 See [AGENTS.md](AGENTS.md) for project workflow, architectural direction, and

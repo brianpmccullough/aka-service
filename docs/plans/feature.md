@@ -17,23 +17,23 @@ Describe the user-visible outcome in one or two paragraphs.
 
 In scope:
 
-- 
+-
 
 Out of scope:
 
-- 
+-
 
 ## Design Notes
 
-- 
+-
 
 ## Data Model Changes
 
-- 
+-
 
 ## API Changes
 
-- 
+-
 
 ## Test Plan
 
@@ -43,12 +43,12 @@ Out of scope:
 
 ## Implementation Steps
 
-1. 
+1.
 
 ## Acceptance Criteria
 
-- 
+-
 
 ## Commit Plan
 
-- 
+-
